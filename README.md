@@ -13,6 +13,17 @@ This is a vim/NERDTree plugin which provides some mappings for inserting images 
 	* `<leader>ifcr` : insert figure with caption right
 2. This will trigger one of the snippets in `markdown.snippets` prefilled with the relative path of the image.
 
+### Example
+
+`<leader>ifcl` will insert the following code into your markdown document:
+
+```html
+<figure class="left">               
+  <img src="img/EXAMPLE_IMAGE.png" alt="">
+  <figcaption></figcaption>
+</figure> 
+```
+
 ## NOTE  
 
 The images have to be in a subfolder called `img`.
@@ -20,7 +31,7 @@ For example you have a the file `somefolder/foobar.md`. Then the images have to 
 
 ## Dependencies
 
-This plugin depends on [SirVer/ultisnips](https://github.com/sirver/UltiSnips)
+This plugin depends on [SirVer/ultisnips](https://github.com/sirver/UltiSnips).
 
 ## Installation
 
